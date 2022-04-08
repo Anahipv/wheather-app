@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(238, 254, 255);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(28, 43, 43);
+}
+
+.container {
+    background-color: rgb(238, 254, 255);
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 43, 43);;
+}
+
+.width-33 {
+    width: 33.33%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mx-auto {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.my-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+      width: 95%;
+    }
+  }

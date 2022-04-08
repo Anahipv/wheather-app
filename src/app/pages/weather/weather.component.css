@@ -1,0 +1,67 @@
+.card {
+    background-color: rgb(170, 216, 219);
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: -0.063rem 1rem 1.875rem -1rem black;
+
+}
+.card__image {
+    position: relative;
+    height: 10rem;
+    margin-bottom: 2.188rem;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem;
+    background: url(/assets/img/nueva.jpg);
+    background-size: cover;
+}
+.card__image img {
+    position: absolute;
+    top: 0.5rem;
+    right: -0.5rem;
+}
+.card__main {
+    text-transform:uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: darkcyan;
+    padding: 0 1rem;
+}
+.card__city {
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+    padding: 1rem;
+}
+.card__stats{
+    background-color: darkcyan;
+    color: white;
+    font-weight: 700;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__stat {
+    padding: 1.25rem 1rem;
+    text-align: center;
+    border-right: 0.063rem solid black;
+}
+.stat .card__stat {
+    position: relative;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+}
+.name .card__stat {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: black;
+}
+sup {
+    bottom: 0.25rem;
+    font-size: 45%;
+    margin-left: 0.125rem;
+}
+.no-border {
+    border-right: none;
+}
